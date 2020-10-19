@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i;
+    cout << "Enter a number: ";
+    cin >> i;
+
+    for(i=i; i <= 1000; i = i/2){
+        if (i==0){
+            break;
+        }
+        cout << i%2 << endl;
+    }
+    return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
