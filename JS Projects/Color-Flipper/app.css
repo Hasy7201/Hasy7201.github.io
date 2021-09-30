@@ -1,0 +1,19 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    position: center;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+button {
+    position: center;
+    margin-top: 400px;
+    margin-left: 700px;
+    text-align:center;
+    justify-content:space-around;
+    border-radius: 14px;
+    background-color: violet;
+}
