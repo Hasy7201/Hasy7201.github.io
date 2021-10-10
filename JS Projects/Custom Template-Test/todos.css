@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif, cursive;
+}
+
+
+
+html {
+    font-size: 75%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background: linear-gradient(120deg, rgba(49, 110, 120, 0.5), rgba(120, 110, 49, 0.6));
+}
+
+.logo {
+    border-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    border-color: blue;
+    position: absolute;
+    box-shadow: brown;
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+    margin-left: 50rem;
+    margin-top: 5rem;
+    border-radius: 50%;
+    position: absolute;
+   
+}
+
+img:hover {
+    transform: rotateX(20deg);
+}
+
+h3 {
+    margin-top: 25rem;
+    margin-left: 2rem;
+    font-weight: 300%;
+    font-size: 1.7rem;
+}
+
+.head-info {
+    margin-top: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    width: 90rem;
+}
+
+.para-info {
+    margin-top: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    width: 90rem;
+}
+
+.input {
+    display: block;
+}
+
+.input.change {
+    display: none;
+}
+
+.button {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-color: rgba(44, 108, 114, 0.6);
+  border-radius: 20%;
+  color:black;
+  border-color: cadetblue;
+}
+
+.button:hover {
+   transform: rotateY(30deg);
+}
+
+.para {
+    margin-left: 4rem;
+    padding-top: 5rem;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+
+
+
