@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #a1e7c1;
+}
+
+.test1 h2, h3 {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.test1 {
+    background: #9cebb8;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
+
+.test1 ul{
+   list-style-type: none;
+   
+}
+
+.test1 ul li{
+    padding: 2rem;
+    margin: 1.5rem;
+    }
+
+ .test1 p {
+     padding: 1rem;
+     font-size: 1.5rem;
+ }
+
+ .data {
+     margin: 2rem;
+ }
+
+ .data input {
+     padding: 1rem;
+     margin: 2rem;
+ }
+
+ .data label {
+     font-size: 1.5rem;
+ }
+
+ .data button {
+     text-align:center;
+     height: 2.5rem;
+     width: auto;
+     border-radius: 5px;
+ } 
+
+
+
+
+
+ 
