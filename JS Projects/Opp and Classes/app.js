@@ -68,8 +68,8 @@ class FinProducts extends ProductItem{
 }
 
 class Folio{
-    script = [new Scripts('Tata Power Company Ltd.', 'Power Untility', 1, '68476Cr', 'Tata Power Company Ltd is India`s largest private sector power utility with an installed generation capacity of over 2785 MW.'),
-              new Scripts('Adani Power Ltd.', 'Power Utility', 10, '38762Cr', 'Adani Power Ltd. is a power project generally deals in electricity supply/disribution'),
+    script = [new Scripts('ABC Ltd.', 'Power Untility', 1, '684176Cr', 'ABC Ltd is worlds largest private sector power utility with an installed generation capacity of over 278512 MW.'),
+              new Scripts('XYZ Ltd.', 'Power Utility', 10, '3872Cr', 'XYZ Ltd. is a power project generally deals in electricity supply/disribution'),
               ];
 
     render() {
