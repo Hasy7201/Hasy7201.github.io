@@ -42,29 +42,29 @@ getData() {
 
 
 class FinProducts extends ProductItem{
-    constructor(product) {
+ constructor(product) {
         super(product);
         this.curPrice = prompt(`${product.scpName} => Market Price:`);
      }
 
-   
-
-   render(){
+    render(){
         const prodEl = document.createElement('li');
-        console.log(this.curPrice)
+        console.log(this.curPrice);
             prodEl.innerHTML = `
-               <div>
-                 <h2>Name: ${this.product.scpName}</h2>
-                 <h3>Industry: ${this.product.Industry}</h3>
-                 <p>Facevalue: \Rs.${this.product.fv}</p>
-                <p>${this.curPrice}</p>
-                 <p>Market Capitalization: \Rs.${this.product.marketCap}</p>
-                 <p>About => ${this.product.About} <a href="https://www.moneycontrol.com/">For More info, Click Here.</a></p>
-               </div>                 
-            `;
-            console.log(this.product, prodEl);
-            return prodEl;
-        }
+            <div>
+              <h2>Name: ${this.product.scpName}</h2>
+              <h3>Industry: ${this.product.Industry}</h3>
+              <p>Facevalue: \Rs.${this.product.fv}</p>
+             <p>\Rs. ${this.curPrice}</p>
+              <p>Market Capitalization: \Rs.${this.product.marketCap}</p>
+              <p>About => ${this.product.About} <a href="https://www.moneycontrol.com/">For More info, Click Here.</a></p>
+            </div>                 
+         `;
+         console.log(this.product, prodEl);
+         return prodEl;
+     }
+        
+           
 }
 
 class Folio{
