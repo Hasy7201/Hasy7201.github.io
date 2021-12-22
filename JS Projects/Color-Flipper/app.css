@@ -1,19 +1,22 @@
-body {
-    background-color: red;
-}
-
-h1 {
-    position: center;
-    margin-top: 50px;
-    margin-left: 650px;
-}
+#prev {
+   margin-left: 500px;
+   margin-top: 300px;
+} 
 
 button {
-    position: center;
-    margin-top: 400px;
-    margin-left: 700px;
-    text-align:center;
-    justify-content:space-around;
-    border-radius: 14px;
-    background-color: violet;
+    border-radius: 16px;
+    background-color: yellowgreen;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#color {
+    font-size: 30px;
 }
