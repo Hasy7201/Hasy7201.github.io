@@ -7,7 +7,7 @@ int main()
     cout << "Enter a number: ";
     cin >> i;
 
-    for(i=i; i <= 1000; i = i/2){
+    for(i=i; i <= 1000000; i = i/2){
         if (i==0){
             break;
         }
