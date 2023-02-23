@@ -1,10 +1,13 @@
-public class Dare{
+public class Main{
     public static void main(String[]args){
-        for ( int i =64; i <= 64; i = i/2){
-            if (i==0){
-                break;
+           try (Scanner num = new Scanner(System.in)) {
+            int num1 = num.nextInt();
+            for (int i = num1; i <= num1; i = i / 2) {
+                if (i == 0) {
+                    break;
+                }
+                System.out.println(i % 2);
             }
-            System.out.println(i%2);
         }
     }
 }
