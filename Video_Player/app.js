@@ -12,7 +12,7 @@ const plugInPlay = (ele) => {
   });
 };
 
-video.src = "./Life.s01e01.mp4";
+video.src = "./videofile.mp4"; 
 
 function createVideoEl(ele, path) {
   const video = document.createElement(`${ele}`);
@@ -28,4 +28,4 @@ function createVideoEl(ele, path) {
   plugInPlay(video);
 }
 
-createVideoEl("video", "./Life.s01e01.mp4");
+createVideoEl("video", "./videofile.mp4");//video file path
