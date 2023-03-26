@@ -2,6 +2,12 @@
   background-color: rgb(238, 166, 166);
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 div,
 span {
   display: inline-block;
