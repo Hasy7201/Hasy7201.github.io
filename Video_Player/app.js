@@ -28,9 +28,14 @@ function createVideoEl(ele, path) {
   root.appendChild(video);
   plugInPlay(video);
 }
+let isClicked = true;
 listItem.addEventListener("click", (event) => {
-  createVideoEl("video", `./PlayList/${event.target.textContent}.mp4`); //PlayList is the name of video Folder in same directory.
-  console.log(event.target.textContent);
+  
+  if(isClicked){
+      createVideoEl("video", `./PlayList/${event.target.textContent}.mp4`); //PlayList is the name of video Folder in same directory.
+  }
+  
+  isClicked = false;
 });
 
 
