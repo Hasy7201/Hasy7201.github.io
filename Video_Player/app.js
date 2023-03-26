@@ -2,6 +2,7 @@ const root = document.getElementById("root");
 const video = document.createElement("video");
 const playButton = document.getElementById("play");
 const pauseButton = document.getElementById("pause");
+const listItem = document.querySelector("ul");
 
 const plugInPlay = (ele) => {
   playButton.addEventListener("click", () => {
@@ -27,5 +28,9 @@ function createVideoEl(ele, path) {
   root.appendChild(video);
   plugInPlay(video);
 }
+listItem.addEventListener("click", (event) => {
+  createVideoEl("video", `./Life/${event.target.textContent}.mp4`);
+  console.log(event.target.textContent);
+});
 
-createVideoEl("video", "./videofile.mp4");//video file path
+
