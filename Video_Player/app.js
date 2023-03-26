@@ -29,7 +29,7 @@ function createVideoEl(ele, path) {
   plugInPlay(video);
 }
 listItem.addEventListener("click", (event) => {
-  createVideoEl("video", `./FolderName/${event.target.textContent}.mp4`);
+  createVideoEl("video", `./PlayList/${event.target.textContent}.mp4`); //PlayList is the name of video Folder in same directory.
   console.log(event.target.textContent);
 });
 
