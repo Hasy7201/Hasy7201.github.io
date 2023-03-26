@@ -29,7 +29,7 @@ function createVideoEl(ele, path) {
   plugInPlay(video);
 }
 listItem.addEventListener("click", (event) => {
-  createVideoEl("video", `./Life/${event.target.textContent}.mp4`);
+  createVideoEl("video", `./FolderName/${event.target.textContent}.mp4`);
   console.log(event.target.textContent);
 });
 
