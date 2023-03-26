@@ -35,7 +35,7 @@ listItem.addEventListener("click", (event) => {
       createVideoEl("video", `./PlayList/${event.target.textContent}.mp4`); //PlayList is the name of video Folder in same directory.
   }
   
-  isClicked = false;
+  isClicked = false;  //This will stop adding multiple video on screen on every click
 });
 
 
